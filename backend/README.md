@@ -11,13 +11,11 @@ DB: postgres
 USERNAME: postgres
 PASSWORD: Test1234
 ```
-```
 
 ### Database
 No seu visualizador de banco de dados postgres
 Verifique se a tabela ng_cash foi criada, caso não tenha sido crie a tabela.
 Crie a tabela ng_cash_test, tabela para os testes de integração.
-```
 ```
 
 ### Dependências
