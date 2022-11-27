@@ -13,6 +13,7 @@ O projeto conta com cobertura do prettier e do eslint para controle de padrão d
 
 ## Instalação e Execução
 A instalação e execução de ambos, backend e frontend, estão bem especificadas em suas respectivas pastas.
+
 [Especificações Backend](https://github.com/LuisFSanches/NGCASH_FULLSTACK_TEST/blob/master/backend/README.md)
 
 [Especificações Frontend](https://github.com/LuisFSanches/NGCASH_FULLSTACK_TEST/blob/master/frontend/README.MD)
