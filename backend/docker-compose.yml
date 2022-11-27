@@ -1,0 +1,26 @@
+version: "3.7"
+
+services:
+  database:
+    image: postgres
+    container_name: ng-cash-database
+    restart: always
+    ports:
+      - 5432:5432
+    environment:
+      - POSTGRES_DB=ng_cash
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=Test1234
+    volumes:
+      - pgdata:/data/postgres
+    networks:
+      - ng_cash_network
+
+volumes:
+  pgdata:
+    driver: local
+
+networks:
+  ng_cash_network:
+    external:
+      name: ng_cash_network
